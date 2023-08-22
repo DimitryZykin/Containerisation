@@ -17,4 +17,4 @@
 
 
 
-![picture for containerization](2023-08-22 19_58_19-Clipboard.png) 
+![picture for containerization](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/2023-08-22 19_58_19-Clipboard.png) 
