@@ -81,7 +81,7 @@ ip — это утилита которая в целом позволяет р�
 Создаем пространство имен в ней
 ip netns list — посмотрели
 testns — увидели и еще формально ничего не подключенно
-![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic2.png) 
+![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic2.jpg) 
 Это уже не папка в почти как Свитч — это такое устройство, которое формирует сеть, и в которое подключаются наши машинки через порты. Задача свитча L2 (есть ещё более продвинутые, относящиеся к L3 и даже к L7) — перенаправлять кадры от MAC отправителя к MAC получателя. Множество машин, подключенных к одному свитчу формируют локальную сеть (LAN).
 Ip — просмотр команд
 ip netns help — просмотр команд
@@ -107,12 +107,12 @@ ip a
 мы сейчас в пространсве имен, который ограничен только по сетевому пространству
 ps aux
 мы ввели ps aux и весь набор процессов
-![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic3.png) 
-![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic4.png) 
+![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic3.jpg) 
+![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic4.jpg) 
 теперь выйдем от сюда,и ограничим дополнительно.
 unshare --net --pid --fork --mount-proc /bin/bash
 ps aux
-![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic5.png) 
+![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic5.jpg) 
 unshare Утилита которая позволяет это разграничивать -
 --net — ограничевает сетевое пространство имен
 ip a
