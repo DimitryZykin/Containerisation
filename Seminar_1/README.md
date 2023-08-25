@@ -18,18 +18,18 @@
 *Записи с семинара. *Вызов chroot на практике.
 Для этого создадим каталог "testfolder" в домашнем каталоге пользователя и запустим команду chroot.
 Создаем директорию "testfolder":
-mkdir testfolder
+`mkdir testfolder`
 Копируем исполняемый файл командного интерпретатора /bin/bash в папку "testfolder/bin":
-cp /bin/bash testfolder/bin
+`cp /bin/bash testfolder/bin`
 Создаем необходимые директории "testfolder/lib" и "testfolder/lib64":
-mkdir testfolder/lib
-mkdir testfolder/lib64
+```mkdir testfolder/lib
+mkdir testfolder/lib64```
 Копируем необходимые библиотеки в папку "testfolder/lib" и "testfolder/lib64". Пример:
-cp /lib/x86_64-linux-gnu/libtinfo.so.6 testfolder/lib
+```cp /lib/x86_64-linux-gnu/libtinfo.so.6 testfolder/lib
 cp /lib/x86_64-linux-gnu/libc.so.6 testfolder/lib
-cp /lib64/ld-linux-x86-64.so.2 testfolder/lib64/
+cp /lib64/ld-linux-x86-64.so.2 testfolder/lib64/```
 Запускаем команду chroot для изменения корневой папки:
-chroot testfolder /bin/bash
+`chroot testfolder /bin/bash`
 
 ![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_1/source/Pic1.png) 
 
