@@ -36,7 +36,7 @@ __
 docker --version
 ```
 
-![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_3/source/Pic1.png) 
+![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_3/source/Pic_1.png) 
 
 
 
