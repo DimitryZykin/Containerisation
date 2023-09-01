@@ -10,3 +10,7 @@
 
 
 **Выполнение**
+
+![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_4/src/Pic_1.png) 
+![pic2](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_4/src/Pic_2.png) 
+![pic3](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_4/src/Pic_3.png) 
