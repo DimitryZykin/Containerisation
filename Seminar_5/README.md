@@ -19,5 +19,14 @@ Service - это как раз то, из чего состоит stack. Service
 
 Task - это непосредственно созданный контейнер, который docker создал на основе той информации, которую мы указали при описании service. Swarm будет следить за состоянием контейнера и при необходимости его перезапускать или перемещать на другую ноду.
 
+Создаем два ДК-файла:
+   ![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_5/source/Pic2.png) 
+   
+Компилируем node:
+   ![pic2](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_5/source/Pic4.png) 
+   
+Проверяем:
+   ![pic3](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_5/source/Pic5.png) 
 
-   ![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_5/source/Pic1.png) 
+![pic4](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_5/source/Pic1.png) 
+![pic5](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_5/source/Pic3.png) 
