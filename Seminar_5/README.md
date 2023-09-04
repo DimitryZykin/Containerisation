@@ -6,4 +6,4 @@
 ** не обязательно 3) по итогу на каждой ноде должно быть по 2 работающих контейнера
 4) выводы зафиксировать
 
-5) 
+   ![pic1](https://github.com/DimitryZykin/Containerisation/blob/main/Seminar_4/src/Pic1.png) 
